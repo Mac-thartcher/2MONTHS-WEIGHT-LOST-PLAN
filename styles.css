@@ -10,7 +10,7 @@ header {
   background-color: #4caf50;
   color: white;
   padding: 20px 0;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav button {
   border: none;
   border-radius: 5px;
   background-color: #4caf50;
-  color: white;
+  color: rgb(244, 242, 242);
   cursor: pointer;
 }
 
