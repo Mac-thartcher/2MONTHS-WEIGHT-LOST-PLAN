@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8-Week Fat Loss Plan </title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>8-Week Fat Loss Plan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
 </head>
 <body>
-    <header>
-    <h1>8-Week Fat Loss Plan (in women with PCOS + Fibroids)</h1>
+  <header>
+    <h1>8-Week Fat Loss Plan (for women with PCOS + Fibroids)</h1>
   </header>
 
   <nav>
@@ -49,57 +47,90 @@
         <td>HIIT 30s sprint / 60s walk ×10</td>
         <td>Collagen, Ginger tea, Senna leaf tea at night</td>
       </tr>
-      <!-- Add remaining days here -->
+      <tr>
+        <td>Wednesday</td>
+        <td>Oatmeal + chia seeds + banana</td>
+        <td>Carrot sticks + hummus</td>
+        <td>Turkey wrap + spinach + avocado</td>
+        <td>Protein shake</td>
+        <td>Grilled shrimp + asparagus + sweet potato</td>
+        <td>Yoga & core</td>
+        <td>Magnesium, Spearmint tea</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Scrambled eggs + spinach + mushrooms</td>
+        <td>Handful of walnuts + apple slices</td>
+        <td>Salmon salad + olive oil dressing</td>
+        <td>Greek yogurt + flaxseed</td>
+        <td>Chicken curry + cauliflower rice</td>
+        <td>Resistance band workout</td>
+        <td>Omega-3, Turmeric capsules</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Protein pancakes + berries</td>
+        <td>Boiled egg + cucumber</td>
+        <td>Grilled tofu + quinoa + mixed greens</td>
+        <td>Almond butter + rice cakes</td>
+        <td>Beef stir-fry + broccoli + brown rice</td>
+        <td>Cardio intervals</td>
+        <td>Vitamin D, Ginger tea</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>Green smoothie + chia seeds</td>
+        <td>Trail mix</td>
+        <td>Chicken salad + avocado + tomatoes</td>
+        <td>Protein bar</td>
+        <td>Grilled fish + roasted veggies</td>
+        <td>Outdoor walk or hike</td>
+        <td>Collagen, Dandelion tea</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Avocado toast + poached egg</td>
+        <td>Fruit bowl</td>
+        <td>Vegetable soup + lentils</td>
+        <td>Rice cakes + almond butter</td>
+        <td>Grilled chicken + steamed greens</td>
+        <td>Rest & recovery</td>
+        <td>Probiotics, Chamomile tea</td>
+      </tr>
     </table>
   </section>
 
-  <!-- Week 2 Section -->
+  <!-- Week 2–4 Sections -->
   <section id="week2" class="plan-section" style="display:none;">
-    <h2>Week 2</h2><table>
-      <tr>
-        <th>Day</th><th>Breakfast</th><th>Snack</th><th>Lunch</th><th>Snack</th><th>Dinner</th><th>Workout</th><th>Herbs/Supplements</th>
-      </tr>
-      <tr>
-        <td>Monday</td>
-        <td>2 boiled eggs + ½ avocado + sweet potato</td>
-        <td>10 almonds + berries</td>
-        <td>Grilled chicken + brown rice + spinach & carrots</td>
-        <td>Greek yogurt + berries</td>
-        <td>Grilled fish + broccoli + roasted plantains</td>
-        <td>Full-body strength</td>
-        <td>Whey protein, Green tea</td>
-      </tr>
-      <tr>
-        <td>Tuesday</td>
-        <td>Yogurt + berries + peanut butter + spinach smoothie</td>
-        <td>Apple + almonds</td>
-        <td>Grilled fish + quinoa + zucchini & bell peppers</td>
-        <td>Boiled egg + cucumber slices</td>
-        <td>Chicken stir-fry + carrots & green beans</td>
-        <td>HIT 30s sprint / 60s walk ×10</td>
-        <td>Collagen, Ginger tea, Senna leaf tea at night</td>
-      </tr>
-      </table>
+    <h2>Week 2</h2>
+    <p>Repeat Week 1 meals with slight variations. Increase workout intensity.</p>
   </section>
 
-  <!-- Week 3 Section -->
   <section id="week3" class="plan-section" style="display:none;">
     <h2>Week 3</h2>
-    <p>Progressive increase in workout intensity. Meals remain high-protein, low-GI.</p>
+    <p>Focus on portion control and hydration. Add 10 minutes to each workout.</p>
   </section>
 
-  <!-- Week 4 Section -->
   <section id="week4" class="plan-section" style="display:none;">
     <h2>Week 4</h2>
-    <p>Continue progressive workouts. Replace some carbs with extra vegetables for faster fat loss.</p>
+    <p>Swap starchy carbs for leafy greens. Add stretching and mobility work.</p>
   </section>
 
   <!-- Tips Section -->
   <section id="tips" class="plan-section" style="display:none;">
     <h2>Weight Loss Tips</h2>
-    <button id="showTip">Show a Tip</button>
-    <p id="tip"></p>
+    <div class="tip-box">
+      <label for="tipCategory">Choose a category:</label>
+      <select id="tipCategory">
+        <option value="all">All</option>
+        <option value="nutrition">Nutrition</option>
+        <option value="exercise">Exercise</option>
+        <option value="lifestyle">Lifestyle</option>
+      </select>
+      <button id="showTip">Show a Tip</button>
+      <p id="tip"></p>
+      <ul id="tipHistory"></ul>
+    </div>
   </section>
-    
 </body>
 </html>
