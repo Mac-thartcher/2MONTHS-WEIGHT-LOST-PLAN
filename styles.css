@@ -63,3 +63,22 @@ th {
   margin-top: 10px;
   padding-left: 20px;
 }
+.site-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fab6cd;
+  color: #444;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.site-footer .creator {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.site-footer .quote {
+  font-style: italic;
+  color: #666;
+}
